@@ -19,3 +19,9 @@ Clone the project to any directory where you do development work
 ```bash
 git clone https://github.com/ariefhusen/nodejs-demoapp.git
 ```
+
+Build and Run Apps with docker
+
+```bash
+docker-compose up -d --build
+```
