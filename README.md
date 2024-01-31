@@ -6,14 +6,15 @@ The app has been designed with cloud native demos & containers in mind, in order
 
 # Deployment on Server
 
-Clone the project to any directory where you do development work
 
 ### Pre-reqs
 
 - Be using Linux, WSL or MacOS, with bash, make etc
 - [Node.js](https://nodejs.org/en/) - for running locally, linting, running tests etc
-- [Docker](https://docs.docker.com/get-docker/) & docker-compose - for running as a container, or building images
+- [Docker](https://docs.docker.com/get-docker/) & [docker-compose](https://docs.docker.com/compose/install/) - for running as a container, or building images
 
+
+Clone the project to any directory where you do development work
   
 ```bash
 git clone https://github.com/ariefhusen/nodejs-demoapp.git
