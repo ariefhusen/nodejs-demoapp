@@ -6,5 +6,6 @@ services:
     #volumes:
     #  - .:/opt/app/
     #  - /opt/app/node_modules
+    restart: always
     ports:
       - "3000:3000"
