@@ -12,6 +12,7 @@ The app has been designed with cloud native demos & containers in mind, in order
 - Be using Linux, WSL or MacOS, with bash, make etc
 - [Node.js](https://nodejs.org/en/) - for running locally, linting, running tests etc
 - [Docker](https://docs.docker.com/get-docker/) & [docker-compose](https://docs.docker.com/compose/install/) - for running as a container, or building images
+- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) - define infrastructure resources
 
 
 Clone the project to any directory where you do development work
@@ -24,4 +25,10 @@ Build and Run Apps with docker
 
 ```bash
 docker-compose up -d --build
+```
+
+Deployment with Terraform
+
+```bash
+terraform plan
 ```
